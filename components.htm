@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Components</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+  </head>
+  <body>
+    <div class="container">
+      <a href="#" class="default-link">Link</a>
+      <button type="button" class="default-button">Send</button>
+      <input type="text" class="text-field" placeholder="Hint" />
+      <h2 class="subtitle">Subtitle</h2>
+      <img src="./initial/img/logo.svg" alt="Logo" width="154" class="logo" />
+      <nav src="" alt="" class="menu">
+        <ul class="menu__list">
+          <li class="menu__item"><a href="" class="menu__link">Catalog</a></li>
+          <li class="menu__item"><a href="" class="menu__link">New</a></li>
+          <li class="menu__item"><a href="" class="menu__link">Order</a></li>
+          <li class="menu__item"><a href="" class="menu__link">Contacts</a></li>
+        </ul>
+      </nav>
+      <form action="" class="callback-form">
+        <input
+          type="tel"
+          name="tel"
+          class="text-field callback-form__input"
+          placeholder="Phone number"
+        />
+        <button type="submit" class="default-button callback-form__button">
+          Send
+        </button>
+      </form>
+      <article class="product-card">
+        <img
+          src="./initial/img/1.jpg"
+          alt="Bycicle"
+          class="product-card__img"
+        />
+        <div class="product-card__body">
+          <div class="product-card__body-top">
+            <h3 class="product-card__title">Bycicle BMX Tech Team Goof 20</h3>
+            <strong class="product-card__price">60 000 tenge</strong>
+          </div>
+          <button type="button" class="default-button product-card__button">
+            Send
+          </button>
+        </div>
+      </article>
+      <article class="product-card product-card_big">
+        <img
+          src="./initial/img/5.jpg"
+          alt="Bycicle"
+          class="product-card__img product-card__img_big"
+        />
+        <div class="product-card__body product-card__body_big">
+          <div class="product-card__body-top">
+            <h3 class="product-card__title">Bycicle BMX Tech Team Goof 20</h3>
+            <strong class="product-card__price product-card__price_big"
+              >60 000 tenge</strong
+            >
+          </div>
+          <button
+            type="button"
+            class="default-button product-card__button product-card__button_big"
+          >
+            Send
+          </button>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>
